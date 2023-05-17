@@ -1,0 +1,83 @@
+.new {
+  width: 100vw;
+  display: flex;
+}
+
+.newContainer {
+  flex: 6;
+}
+
+.top,
+.bottom {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+}
+.bottom.updateBottom {
+  height: 50vh;
+}
+
+.updateTitle {
+  font-size: 22px;
+}
+
+.left {
+  flex: 1;
+  text-align: center;
+}
+
+.updateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.right {
+  flex: 2;
+  padding: 0px 20px;
+}
+
+.updateForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.formInput {
+  width: 40%;
+}
+.updateLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.updateInput {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.updateBtn {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.updateBtn:hover {
+  background-color: blueviolet;
+  transition: 0.5s;
+}

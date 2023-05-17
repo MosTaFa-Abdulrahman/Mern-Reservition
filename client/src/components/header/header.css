@@ -1,0 +1,144 @@
+.header {
+  background-color: #a22063;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+}
+.headerContainer.hotelsMode {
+  margin: 20px 0px 0px 0px;
+}
+
+.headerLists {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.headerListItem.active {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.headerTitle {
+}
+
+.headerDesc {
+  margin: 20px 0px;
+}
+
+.headerButton {
+  background-color: #0071c2;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.headerSearch {
+  height: 30px;
+  padding: 23px 0px;
+  background-color: #fff;
+  border: 3px solid rgb(194, 194, 72);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+  max-width: 1024px;
+}
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerIcon {
+  color: lightgray;
+  font-size: 20px;
+}
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+.headerSearchText {
+  color: rgb(184, 169, 169);
+  cursor: pointer;
+}
+
+/* Open ((Date ++ Options)) */
+.dateRange {
+  position: absolute;
+  top: 50px;
+  z-index: 200;
+}
+
+.options {
+  position: absolute;
+  margin-left: 42px;
+  top: 50px;
+  color: gray;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 100;
+  -webkit-box-shadow: 1px 1px 11px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 11px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 11px -5px rgba(0, 0, 0, 0.75);
+}
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.optionCountContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+}
+.optionCountBtn {
+  width: 30px;
+  height: 30px;
+  color: #0071c2;
+  background-color: white;
+  border: 1px solid #0071c2;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.optionCountBtn:hover {
+  color: white;
+  background-color: teal;
+}
+.optionCountBtn:disabled {
+  color: #0071c2;
+  background-color: white;
+  cursor: not-allowed;
+}
+.optionCountNum {
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+/* Open ((Date ++ Options)) */

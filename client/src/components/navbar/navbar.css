@@ -1,0 +1,79 @@
+.navbar {
+  height: 80px;
+  background-color: #a22063;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLogo {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.navLogo:hover {
+  font-weight: 700;
+  color: rgb(63, 28, 28);
+  transition: 0.6s;
+}
+
+.navItems {
+}
+
+.userContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userImg {
+  /* background-color: #ccc; */
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.userImg.myPhoto {
+  background-color: #ccc;
+}
+.userUsername {
+  margin: 0px 3px;
+  padding: 0px 3px;
+  font-size: 18px;
+}
+
+.navButton {
+  margin-left: 20px;
+  padding: 5px 10px;
+  color: #003580;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.navButton:hover {
+  color: white;
+  background-color: #0f73ff;
+  border-radius: 5px;
+}
+.navButton.logOut {
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+}
+.navButton.logOut:hover {
+  background-color: white;
+  color: red;
+}

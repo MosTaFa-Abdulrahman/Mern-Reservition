@@ -1,0 +1,28 @@
+.pList {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.pLItem {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.pLImg {
+  background-color: #333;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.pLTitles h1 {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.pLTitles h2 {
+  font-size: 14px;
+}
